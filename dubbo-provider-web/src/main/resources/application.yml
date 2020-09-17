@@ -1,0 +1,21 @@
+server:
+  port: 3131
+
+# 将注册中心地址、元数据中心地址等配置集中管理，可以做到统一环境、减少开发侧感知。
+dubbo:
+  application:
+    name:  dubbo-provider-1
+  #连接注册中心配置
+  registry:
+    address: zookeeper://localhost:2181
+  #服务提供者协议配置
+  protocol:
+    check: false
+    name: dubbo
+    port: 23131
+
+rpc:
+  version: 1.0
+spring:
+  application:
+    name: spring-application-dubbo-provider-1
