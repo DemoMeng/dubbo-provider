@@ -1,4 +1,4 @@
-# rpc-ex-pro
+# dubbo-provider dubbo-consumer
     这是一个dubbo项目
     
     springboot-dubbo

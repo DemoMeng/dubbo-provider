@@ -12,11 +12,6 @@ import java.time.LocalDateTime;
  */
 @DubboService(version = "${rpc.version}")
 public class ProviderApiImpl implements ProviderApi {
-    /*@Override
-    public String deal() {
-        return "dubbo-provider开始提供服务啦，当前时间（"+ LocalDateTime.now() +"）";
-    }*/
-
     @Override
     public String dealWith() {
         return "dubbo-provider开始提供服务啦，当前时间（"+ LocalDateTime.now() +"）";
